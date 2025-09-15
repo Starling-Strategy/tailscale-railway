@@ -5,7 +5,7 @@
 
 # Wait for tailscaled to start
 until /usr/local/bin/tailscale up --authkey=${TAILSCALE_AUTHKEY} \
-      --hostname=railway-exit-node \
+      --hostname=nctq-ai-railway-exit-node \
       --advertise-exit-node; do
     sleep 0.1
 done
